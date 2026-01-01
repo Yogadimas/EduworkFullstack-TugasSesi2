@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Biodata - Responsive Grid</title>
+
+  <!-- LINK KE CSS EXTERNAL -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="app">
+
+        <!-- NAVBAR -->
+        <div class="navbar">
+          <div class="brand">Brand</div>
+          <div class="navlinks">
+            <a href="#header">Header</a>
+            <a href="#biodata">Biodata</a>
+            <a href="#portofolio">Portofolio</a>
+          </div>
+        </div>
+
+        <div class="container">
+
+          <!-- HERO / HEADER -->
+          <div id="header" class="hero">
+            <div>
+              <h1>Selamat Datang di Website Saya</h1>
+              <p>
+                Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini,
+                kolom kanan berisi gambar. Layout menggunakan <b>DIV + CSS Grid</b>.
+              </p>
+              <a class="btn" href="#biodata">Pelajari Lebih Lanjut</a>
+            </div>
+
+            <div class="hero-img">
+              <!-- Gambar bisa diganti foto kamu -->
+              <img src="https://placehold.co/600x400?text=Foto+Profil" alt="Foto Profil">
+            </div>
+          </div>
+
+          <!-- ABOUT ME / BIODATA -->
+          <div id="biodata" class="section">
+            <h2>About Me</h2>
+            <small>A brief introduction about myself</small>
+
+            <div class="bio-grid">
+              <div class="bio-box">
+                <b>Full Name</b>
+                <span>Yoga Dimas Pambudi</span>
+              </div>
+              <div class="bio-box">
+                <b>Education</b>
+                <span>S1 Informatika</span>
+              </div>
+              <div class="bio-box">
+                <b>Pekerjaan</b>
+                <span>Programmer</span>
+              </div>
+              <div class="bio-box">
+                <b>Contact</b>
+                <span>yogadimaspambudi@gmail.com</span>
+              </div>
+              <div class="bio-box">
+                <b>Hobi</b>
+                <span>Membaca, Coding</span>
+              </div>
+              <div class="bio-box">
+                <b>Alamat</b>
+                <span>Semarang</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PORTOFOLIO -->
+          <div id="portofolio" class="section">
+            <h2>Portofolio</h2>
+
+            <div class="port-grid">
+              <div class="card">
+                <img src="https://placehold.co/800x450?text=Project+1" alt="Project 1">
+                <div class="cap">
+                  <b>Proyek 1</b>
+                  <p>Deskripsi proyek 1.</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://placehold.co/800x450?text=Project+2" alt="Project 2">
+                <div class="cap">
+                  <b>Proyek 2</b>
+                  <p>Deskripsi proyek 2.</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://placehold.co/800x450?text=Project+3" alt="Project 3">
+                <div class="cap">
+                  <b>Proyek 3</b>
+                  <p>Deskripsi proyek 3.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="footer">
+          © 2026 Dodi. All rights reserved
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
